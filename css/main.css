@@ -20,6 +20,57 @@ body{
   justify-content: center;
 }
 
+.bookmark-btn{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.delete-bookmark-btn{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.delete-bookmark-btn:hover{
+  color: #fff;
+  background-color: #161D25;
+}
+
+.delete-bookmark-btn:active{
+  color: #fff;
+  background-color: #161D25;
+}
+
+.bookmark-btn:hover{
+  color: #fff;
+  background-color: #161D25;
+}
+
+.bookmark-btn:hover{
+  color: #fff;
+  background-color: #161D25;
+}
+
+.modal-btn{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.modal-btn:hover{
+  color: #fff;
+  background-color: #161D25;
+}
+
+.modal-btn:active{
+  color: #fff;
+  background-color: #161D25;
+}
+
 .form__time{
   color: #fff;
   display: flex;
@@ -37,11 +88,22 @@ body{
   column-gap: 30px;
 }
 
-.list__item{
+.newItemTitle{
   list-style-type: none;
+  color: #fff;
+}
+
+.newSubItem{
+  color: aqua;
+  list-style-type: none;
+}
+
+.list__item{
+  list-style: none;
   width: 250px;
   padding: 10px;
   list-style: none;
+  color: #fff;
   background-color: #1D232C;
   border-radius: 5px;
 }
@@ -65,4 +127,23 @@ body{
   border-radius: 10px;
   border: 1px solid transparent;
   margin-left: 10px;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 200px;
+  width: 100%;
+
+}
+
+.modal__title{
+  color: #fff;
+}
+
+.modal__text{
+  color: #fff;
 }
